@@ -6,21 +6,21 @@ InstallerLocale: en-US
 InstallerType: zip
 ReleaseDate: "2026-03-22"
 Installers:
-  - Architecture: arm64
-    NestedInstallerType: portable
-    NestedInstallerFiles:
-      - RelativeFilePath: avtr.exe
-        PortableCommandAlias: avtr
-    InstallerUrl: https://github.com/Jayakrishna20/file-converter/releases/download/v1.0.1/avtr_Windows_arm64.zip
-    InstallerSha256: 417f5a6e5bf70e4b1c18626456e211c9d32570338703a7cce3144678ec25639c
-    UpgradeBehavior: uninstallPrevious
   - Architecture: x64
     NestedInstallerType: portable
     NestedInstallerFiles:
       - RelativeFilePath: avtr.exe
         PortableCommandAlias: avtr
     InstallerUrl: https://github.com/Jayakrishna20/file-converter/releases/download/v1.0.1/avtr_Windows_x86_64.zip
-    InstallerSha256: a5555eb48ecad66b08935b694819ffb1a6018c6d8a0ac2201b3b4fcfe6838fbf
+    InstallerSha256: e9ffe08038ac45c59628faaf9ab5269b28afb5a6c9b4f8128afbce2ec1a35433
+    UpgradeBehavior: uninstallPrevious
+  - Architecture: arm64
+    NestedInstallerType: portable
+    NestedInstallerFiles:
+      - RelativeFilePath: avtr.exe
+        PortableCommandAlias: avtr
+    InstallerUrl: https://github.com/Jayakrishna20/file-converter/releases/download/v1.0.1/avtr_Windows_arm64.zip
+    InstallerSha256: 6aceb1717ac761134973d815ca1242cb5187dfcb80009bb4b0ddf261d6fab1c8
     UpgradeBehavior: uninstallPrevious
 ManifestType: installer
 ManifestVersion: 1.6.0
